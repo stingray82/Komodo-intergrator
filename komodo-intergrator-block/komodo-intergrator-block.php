@@ -1,10 +1,19 @@
 <?php
 /**
- * Plugin Name: Komodo Decks Integrator
- * Description: A custom block to integrate Komodo Decks iframe.
- * Version: 1.0
- * Author: STINGRAY82
- */
+ * Plugin Name:       Komodo Decks Integrator
+ * Tested up to:      6.7.2
+ * Description:       A custom block to integrate Komodo Decks iframe.
+ * Requires at least: 6.5
+ * Requires PHP:      7.4
+ * Version:           1.0
+ * Author:            STINGRAY82
+ * Author URI:        https://reallyusefulplugins.com
+ * License:           GPL-2.0-or-later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       komodo-intergrator-block
+ * Website:           https://reallyusefulplugins.com
+ * */
+
 function komodo_decks_block_init() {
     ?>
     <script type="text/javascript">
